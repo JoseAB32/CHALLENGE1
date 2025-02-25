@@ -44,6 +44,7 @@ dependencies {
     implementation(libs.retrofit)
     implementation(libs.moshi)
     implementation(libs.converter.moshi)
+    kapt(libs.moshi.kapt)
 }
 
 kapt {

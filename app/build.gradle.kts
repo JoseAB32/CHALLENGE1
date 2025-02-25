@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.kapt)
 }
 
 android {
@@ -63,6 +64,7 @@ dependencies {
     implementation(libs.material3)
     implementation(libs.ui.tooling.preview)
 
-
-
+    implementation(libs.moshi.v1150)
+    implementation(libs.moshi.kotlin)
 }
+
