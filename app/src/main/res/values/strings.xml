@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tarea1</string>
+    <string name="title_activity_git_ui">GitUiActivity</string>
+    <string name="title_activity_git_ui_avtivity">GitUiAvtivity</string>
+    <string name="github_user_prompt">Ingrese el githubUser</string>
+    <string name="search">Buscar</string>
+</resources>
